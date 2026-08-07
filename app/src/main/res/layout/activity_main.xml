@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundo"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <!-- Cabeçalho enxuto: nome do aplicativo e o cadastro de cidades. -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/app_name"
+            android:textColor="@color/texto"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/botaoCidades"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="0dp"
+            android:text="@string/acao_cidades"
+            android:textColor="@color/texto_fraco"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <!-- Conferência: a etiqueta exatamente como vai sair no papel. -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="6dp"
+        android:layout_weight="1"
+        android:background="@drawable/fundo_papel"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/previaEtiqueta"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/descricao_previa"
+            android:scaleType="fitCenter" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/statusTexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:minLines="2"
+        android:text="@string/dica_inicial"
+        android:textColor="@color/texto_fraco"
+        android:textSize="14sp" />
+
+    <!-- Ações secundárias, propositalmente discretas. -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/botaoEditar"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/acao_editar"
+            android:textColor="@color/texto_fraco"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/botaoLimpar"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/acao_limpar"
+            android:textColor="@color/texto_fraco"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <!-- Os dois botões do aplicativo. -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/botaoGravar"
+            android:layout_width="0dp"
+            android:layout_height="104dp"
+            android:layout_marginEnd="6dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/gravar"
+            android:text="@string/botao_gravar"
+            android:textColor="@color/papel"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:cornerRadius="16dp"
+            app:icon="@drawable/ic_mic"
+            app:iconGravity="top"
+            app:iconPadding="2dp"
+            app:iconSize="30dp"
+            app:iconTint="@color/papel" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/botaoImprimir"
+            android:layout_width="0dp"
+            android:layout_height="104dp"
+            android:layout_marginStart="6dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/imprimir"
+            android:text="@string/botao_imprimir"
+            android:textColor="@color/papel"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:cornerRadius="16dp"
+            app:icon="@drawable/ic_print"
+            app:iconGravity="top"
+            app:iconPadding="2dp"
+            app:iconSize="30dp"
+            app:iconTint="@color/papel" />
+    </LinearLayout>
+</LinearLayout>

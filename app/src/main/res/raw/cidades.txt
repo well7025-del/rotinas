@@ -1,0 +1,216 @@
+# Cidades usadas para separar o nome do cliente do local do pedido.
+# Uma por linha. Linhas com "#" sao comentarios.
+# Voce pode adicionar as suas proprias cidades pelo botao "Cidades" no aplicativo.
+
+# --- Pernambuco ---
+Recife
+Olinda
+Jaboatao dos Guararapes
+Jaboatao
+Paulista
+Camaragibe
+Cabo de Santo Agostinho
+Cabo
+Sao Lourenco da Mata
+Abreu e Lima
+Igarassu
+Itapissuma
+Ipojuca
+Moreno
+Araca
+Fernando de Noronha
+Caruaru
+Palmares
+Garanhuns
+Petrolina
+Serra Talhada
+Vitoria de Santo Antao
+Santa Cruz do Capibaribe
+Belo Jardim
+Araripina
+Gravata
+Carpina
+Goiana
+Salgueiro
+Escada
+Ouricuri
+Surubim
+Arcoverde
+Bezerros
+Pesqueira
+Timbauba
+Ribeirao
+Barreiros
+Catende
+Agua Preta
+Gameleira
+Rio Formoso
+Sirinhaem
+Tamandare
+Joaquim Nabuco
+Xexeu
+Quipapa
+Maraial
+Belem de Maria
+Cortes
+Jaqueira
+Sao Jose da Coroa Grande
+Sao Benedito do Sul
+Amaraji
+Primavera
+Chã Grande
+Cha Grande
+Pombos
+Vicencia
+Nazare da Mata
+Aliança
+Alianca
+Buenos Aires
+Itambe
+Condado
+Ferreiros
+Camutanga
+Itaquitinga
+Tracunhaem
+Lagoa do Carro
+Lagoa de Itaenga
+Paudalho
+Gloria do Goita
+Chã de Alegria
+Cha de Alegria
+Feira Nova
+Limoeiro
+Bom Jardim
+Machados
+Orobo
+Passira
+Salgadinho
+Casinhas
+Vertentes
+Frei Miguelinho
+Santa Maria do Cambuca
+Taquaritinga do Norte
+Toritama
+Brejo da Madre de Deus
+Jatauba
+Riacho das Almas
+Cumaru
+Sao Caetano
+Altinho
+Agrestina
+Cupira
+Panelas
+Lagoa dos Gatos
+Ibirajuba
+Barra de Guabiraba
+Sairé
+Saire
+Bonito
+Camocim de Sao Felix
+Sao Joaquim do Monte
+Cachoeirinha
+Tacaimbo
+Poção
+Pocao
+Alagoinha
+Sanharó
+Sanharo
+Venturosa
+Pedra
+Buique
+Tupanatinga
+Itaiba
+Ibimirim
+Inaja
+Manari
+Petrolandia
+Tacaratu
+Jatoba
+Floresta
+Itacuruba
+Belem do Sao Francisco
+Cabrobo
+Oroco
+Santa Maria da Boa Vista
+Lagoa Grande
+Afranio
+Dormentes
+Terra Nova
+Parnamirim
+Verdejante
+Mirandiba
+Sao Jose do Belmonte
+Serrita
+Salgueiro
+Cedro
+Granito
+Bodoco
+Exu
+Moreilandia
+Ipubi
+Trindade
+Santa Cruz
+Santa Filomena
+Bom Nome
+Sao Jose do Egito
+Itapetim
+Brejinho
+Santa Terezinha
+Tabira
+Solidao
+Iguaraci
+Ingazeira
+Tuparetama
+Afogados da Ingazeira
+Carnaiba
+Flores
+Calumbi
+Betania
+Custodia
+Sertania
+Triunfo
+Santa Cruz da Baixa Verde
+Sao Jose do Egito
+Quixaba
+Lagoa do Ouro
+Correntes
+Palmeirina
+Angelim
+Sao Joao
+Terezinha
+Bom Conselho
+Saloa
+Paranatama
+Caetes
+Capoeiras
+Jucati
+Jupi
+Lajedo
+Calçado
+Calcado
+Canhotinho
+Brejao
+Garanhuns
+Iati
+Aguas Belas
+Itaiba
+Buique
+Pedra
+Tupanatinga
+
+# --- Cidades vizinhas mais comuns ---
+Maceio
+Joao Pessoa
+Campina Grande
+Natal
+Aracaju
+Salvador
+Fortaleza
+Juazeiro do Norte
+Crato
+Maragogi
+Porto de Galinhas
+Sao Paulo
+Rio de Janeiro
+Brasilia
+Belo Horizonte

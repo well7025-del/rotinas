@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fundo">#FF12161C</color>
+    <color name="superficie">#FF1D242E</color>
+    <color name="texto">#FFF2F5F8</color>
+    <color name="texto_fraco">#FFA3B0C0</color>
+
+    <color name="gravar">#FF2E7D32</color>
+    <color name="gravando">#FFC62828</color>
+    <color name="imprimir">#FF1565C0</color>
+    <color name="imprimir_inativo">#FF3A424E</color>
+
+    <color name="papel">#FFFFFFFF</color>
+</resources>

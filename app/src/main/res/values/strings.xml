@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Etiquetas por Voz</string>
+
+    <string name="botao_gravar">GRAVAR</string>
+    <string name="botao_ouvindo">OUVINDO…</string>
+    <string name="botao_imprimir">IMPRIMIR</string>
+
+    <string name="acao_editar">Editar texto</string>
+    <string name="acao_limpar">Limpar</string>
+    <string name="acao_cidades">Cidades</string>
+
+    <string name="dica_inicial">Toque em GRAVAR e fale o pedido.\nEx.: “pedido de Aline Soares, Caruaru: 2 camisa sport G”</string>
+    <string name="dica_pronto">Confira a etiqueta e toque em IMPRIMIR.</string>
+    <string name="dica_fale_agora">Pode falar…</string>
+
+    <string name="titulo_editar">Conferir o texto do pedido</string>
+    <string name="titulo_cidades">Minhas cidades</string>
+    <string name="ajuda_cidades">Uma cidade por linha. Serve para o aplicativo separar o nome do cliente do local do pedido.</string>
+    <string name="salvar">Salvar</string>
+    <string name="cancelar">Cancelar</string>
+
+    <string name="nada_para_imprimir">Grave um pedido antes de imprimir.</string>
+    <string name="trabalho_impressao">Etiqueta de pedido</string>
+
+    <string name="erro_impressao">Não foi possível preparar a etiqueta.</string>
+    <string name="erro_sem_impressao">Este celular não tem o serviço de impressão do Android.</string>
+    <string name="erro_sem_reconhecimento">Este celular não tem reconhecimento de voz instalado.</string>
+    <string name="erro_nao_entendi">Não entendi. Toque em GRAVAR e fale de novo.</string>
+    <string name="erro_permissao">Preciso da permissão do microfone para gravar.</string>
+    <string name="erro_audio">Problema com o microfone.</string>
+    <string name="erro_rede">Sem internet para o reconhecimento de voz.</string>
+    <string name="erro_ocupado">O reconhecimento de voz está ocupado. Tente de novo.</string>
+    <string name="erro_reconhecimento">Não consegui gravar. Tente de novo.</string>
+
+    <string name="descricao_previa">Pré-visualização da etiqueta em folha A5</string>
+</resources>

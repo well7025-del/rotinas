@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Etiquetas" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/imprimir</item>
+        <item name="colorPrimaryDark">@color/fundo</item>
+        <item name="colorAccent">@color/gravar</item>
+        <item name="android:colorBackground">@color/fundo</item>
+        <item name="android:textColorPrimary">@color/texto</item>
+        <item name="android:statusBarColor">@color/fundo</item>
+        <item name="android:navigationBarColor">@color/fundo</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+</resources>
